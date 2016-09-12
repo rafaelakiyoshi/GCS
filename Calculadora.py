@@ -4,5 +4,10 @@ class Calculadora(object):
         self.a = a
         self.b = b
 
+
+    def multiplicacao(self):
+        return (self.a * self.b)
+
     def soma(self):
-		return self.a + self.b    
+        return self.a + self.b    
+
