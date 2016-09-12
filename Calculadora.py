@@ -7,3 +7,6 @@ class Calculadora(object):
     def subtracao(self):
       return self.a - self.b  
             
+    def soma(self):
+		return self.a + self.b    
+
