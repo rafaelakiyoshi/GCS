@@ -4,9 +4,6 @@ class Calculadora(object):
       self.a = a
       self.b = b
 
-    def soma(self):
-      return self.a + self.b    
-
     def divisao(self):
       return self.a / self.b
 
@@ -15,4 +12,7 @@ class Calculadora(object):
 
     def soma(self):
         return self.a + self.b    
+
+    def divisao(self):
+      return self.a / self.b
 
