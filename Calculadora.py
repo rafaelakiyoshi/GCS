@@ -1,1 +1,5 @@
-if __name__ == '__main__':
+class Calculadora(object):
+
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
